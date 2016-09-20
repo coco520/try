@@ -1,0 +1,132 @@
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 4px;
+    margin-top: 180px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+a:link, a:visited {
+    display: block;
+    width: 150px;
+    font-weight: lighter;
+    color: #FFFFFF;
+    background-color: #B9B9B9;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+a:hover, a:active {
+    background-color: #999999;
+}
+.STYLE6 {
+    font-weight: bold
+}
+.STYLE17 {
+    font-weight: bold;
+    font-size: medium;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.STYLE18 {
+    font-family: Georgia, "Times New Roman", Times, serif
+}
+.background {
+    background: url(photos.html/home.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    overflow: hidden;
+}
+@media screen and (max-width:1060px) {
+    .header {
+        width: 980px;
+        margin: 0 auto;
+    }
+    .header .name {
+        font: bold 36px/48px Arial, Helvetica, sans-serif;
+        color: #F90;
+        text-align: center;
+    }
+    .header ul li {
+        display: block;
+        background: #663;
+        border-radius: 5px;
+        margin: 3px 0;
+        height: 30px;
+        line-height: 30px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:980px) {
+    .header {
+        width: 980px;
+        margin: 0 auto;
+    }
+    .header .name {
+        font: bold 36px/48px Arial, Helvetica, sans-serif;
+        color: #F90;
+        text-align: center
+    }
+    .header ul li {
+        display: block;
+        background: #663;
+        border-radius: 5px;
+        margin: 3px 0;
+        height: 30px;
+        line-height: 30px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    ul {
+        margin-top: 50%;
+        margin-left: 0;
+    }
+    .background {
+        width: 100%;
+        height: 100%;
+        background-size: 100% 150%;
+        overflow: hidden;
+
+    }
+    .header {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .name {
+        font: bold 20px/20px Arial, Helvetica, sans-serif;
+        color: #F90;
+        text-align: center;
+    }
+    .header ul {
+        width: 100%;
+    }
+    .header ul li {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 30%;
+        margin-top: 30px;
+    }
+    .header ul li a {
+        display: block;
+        background: #663;
+        border-radius: 5px;
+        margin: 0 auto;
+        height: 30px;
+        font-size: 16px;
+        line-height: 30px;
+        width: 100%;
+    }
+}
+
